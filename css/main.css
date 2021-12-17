@@ -1,0 +1,164 @@
+/* start navbar*/
+.navbar-brand {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar .collapse ul li .nav-link {
+    color: white;
+    font-family: cursive;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 0px 10px;
+    transition: all 0.2s;
+}
+
+.navbar .collapse ul li .nav-link:hover {
+    color: black !important;
+    background-color: white !important;
+    border-radius: 20px !important;
+}
+
+/* end navbar*/
+/* start aboutUS*/
+.aboutUs {
+    background-color: #343a40;
+    color: white;
+
+}
+
+.about-header h1 {
+    text-align: center;
+}
+
+.hr {
+    width: 40%;
+    height: 2px;
+    margin: 20px auto;
+    background: linear-gradient(to right, #111, rgb(233, 66, 94), #111);
+}
+
+
+/* end aboutUS*/
+/* start gallary */
+.gallary {
+    background-color: #343a40;
+    color: white;
+    border-top: 1px solid white;
+}
+
+.gallary-header h1 {
+    text-align: center;
+}
+
+/* end gallary */
+/* start nav-tabs */
+.nav-tabs {
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #5c768f;
+}
+
+.nav-tabs .nav-link {
+    color: white;
+    font-weight: 500;
+}
+
+.gallary .tab-content img {
+    border-radius: 20px;
+    border: 1px solid grey;
+    margin: 5px 0px;
+}
+
+/* end nav-tabs */
+/* start contact */
+.contact {
+    background-color: #343a40;
+    color: white;
+    border-top: 1px solid white;
+}
+
+.contact-header h1 {
+    text-align: center;
+}
+
+/* end contact */
+/* start footer */
+.footer {
+    background-color: #343a40;
+    color: white;
+    border-top: 1px solid white;
+}
+
+.footer h2 {
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.footer p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+
+}
+
+.footer ul li a {
+    color: white;
+}
+
+.fh {
+    width: 100%;
+    height: 2px;
+    margin: 20px auto;
+    background: linear-gradient(to right, #111, rgb(233, 66, 94), #111);
+}
+.footer .p{
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 12px;
+}
+.footer .social{
+    list-style: none;
+    display: flex;
+
+}
+.footer .social li{
+    margin-right: 15px;
+}
+.footer .social li a{
+    text-decoration: none;
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    
+}
+.footer .social li .facebook{
+    background-color: #1671e7;
+    border-radius: 5px;
+}
+.footer .social li .twitter{
+    background-color: #1da1f2;
+    border-radius: 5px;
+}
+.footer .social li .instagram{
+    background-color: rgb(170, 42, 20 ,0.6);
+    border-radius: 5px;
+
+}
+.footer .social li:hover{
+    transform: translateY(-5px);
+}
+
+/* eng footer */

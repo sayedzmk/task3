@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg  navbar-dark bg-dark ">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#aboutUS">About Us </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallary"> Gallary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactUS">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">Footer</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="slider">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/bg/1.jpeg" class="img-fluid w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/bg/2.jpeg" class="img-fluid w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/bg/3.jpeg" class="img-fluid w-100">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators"
+                data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators"
+                data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </button>
+        </div>
+    </div>
+
+    </section>
+    <section class="aboutUs  my-0 py-5" id="aboutUS">
+        <div class="about-header">
+            <h1> About US</h1>
+            <div class="hr"></div>
+            <hr style="border: 1px dashed white; width: 30%;">
+            <hr style="border: 1px dashed white; width: 20%;">
+        </div>
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-5">
+                    <img src="./img/profile.jpg" class="rounded img-fluid" alt="">
+                </div>
+                <div class="col-lg-7">
+                    <h1> My Name </h1>
+                    <p> Sayed Mohamed Sayed </p>
+                    <h1> Our mission </h1>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum at itaque dolore animi
+                        aperiam. Ratione illum quam nesciunt repellendus eaque ea sunt veniam, itaque ducimus
+                        cupiditate! Officia tenetur quibusdam facere? </p>
+                    <h1> Our mission </h1>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum at itaque dolore animi
+                        aperiam. Ratione illum quam nesciunt repellendus eaque ea sunt veniam, itaque ducimus
+                        cupiditate! Officia tenetur quibusdam facere? </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="gallary  my-0 py-5" id="gallary">
+        <div class="gallary-header">
+            <h1> Gallary</h1>
+            <div class="hr"></div>
+            <hr style="border: 1px dashed white; width: 30%;">
+            <hr style="border: 1px dashed white; width: 20%;">
+        </div>
+        <ul class="nav nav-tabs mx-auto w-25 justify-content-between" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+                    aria-selected="true">Mobile</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                    aria-controls="profile" aria-selected="false">Lab Top</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                    aria-controls="contact" aria-selected="false">Watch</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <div class="container my-3">
+                    <div class="row ">
+                        <div class="col-md-4">
+                            <img src="./img/mobile/1.jpeg" class="rounded img-fluid" alt="">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./img/mobile/2.jpeg" class="rounded img-fluid" alt="">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./img/mobile/3.jpeg" class="rounded img-fluid" alt="">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./img/mobile/4.jpeg" class="rounded img-fluid" alt="">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./img/mobile/5.jpeg" class="rounded img-fluid" alt="">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./img/mobile/6.jpeg" class="rounded img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <div class="container my-3">
+                    <div class="row ">
+                        <div class="col-md-4">
+                            <img src="./img/labtop/1.jpeg" class="rounded img-fluid" alt="">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./img/labtop/2.jpg" class="rounded img-fluid" alt="">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./img/labtop/3.jpeg" class="rounded img-fluid" alt="">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./img/labtop/4.jpg" class="rounded img-fluid" alt="">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./img/labtop/5.jpeg" class="rounded img-fluid" alt="">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./img/labtop/6jpg.jpg" class="rounded img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <div class="container my-3">
+                    <div class="row ">
+                        <div class="col-md-4">
+                            <img src="./img/watches/1.jpeg" class="rounded img-fluid" alt="">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./img/watches/2.jpeg" class="rounded img-fluid" alt="">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./img/watches/3.jpeg" class="rounded img-fluid" alt="">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./img/watches/4.jpeg" class="rounded img-fluid" alt="">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./img/watches/5.jpeg" class="rounded img-fluid" alt="">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./img/watches/7.jpeg" class="rounded img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact my-0 py-5" id="contactUS">
+        <div class="contact-header">
+            <h1> Contact US</h1>
+            <div class="hr"></div>
+            <hr style="border: 1px dashed white; width: 30%;">
+            <hr style="border: 1px dashed white; width: 20%;">
+        </div>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6">
+                    <form>
+                        <h2>Order Now</h2>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Name</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Phone: </label>
+                            <input type="text" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Product Id:</label>
+                            <input type="text" class="form-control" id="exampleInputPassword1">
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Buy Now</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <img src="./img/bg/map.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer my-0 py-5" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <h2> ABOUT</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, iste ducimus laboriosam itaque
+                        quisquam nesciunt?</p>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <h2>CATEGORIES</h2>
+                    <ul>
+                        <li><a href="#">HTML</a></li>
+                        <li><a href="#">CSS</a></li>
+                        <li><a href="#">BOOTSTRAP</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Contribute</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="fh"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-6 col-xs-12">
+                        <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved byScanfcode
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <ul class="social">
+                            <li>
+                                <a href="#" class="facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="instagram">
+                                    <i class="fab fa-instagram"></i>                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </footer>
+    <script src="./js/jquery.slim.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>
